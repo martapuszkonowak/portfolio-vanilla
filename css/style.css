@@ -89,10 +89,6 @@ nav {
   padding: 1rem;
 }
 
-nav h1 a {
-  font-family: var(--sans);
-}
-
 nav ul {
   margin: 0;
   padding: 0;
