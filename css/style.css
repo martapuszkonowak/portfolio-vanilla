@@ -36,6 +36,7 @@ h3 {
 }
 a {
   color: var(--magenta);
+  text-decoration: none;
 }
 
 a:hover {
