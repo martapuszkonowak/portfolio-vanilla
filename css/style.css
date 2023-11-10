@@ -222,6 +222,7 @@ nav [class*="fa-"]:hover {
   font-size: 1rem;
   font-family: var(--mono);
   margin: 0;
+  margin-bottom: 1rem;
 }
 .about .blackbox {
   padding: 1rem;
