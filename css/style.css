@@ -129,7 +129,7 @@ nav {
   padding: 1rem;
 }
 nav img {
-  max-width: 15%;
+  max-width: 20%;
 }
 
 nav ul {
@@ -317,7 +317,7 @@ footer ul {
     justify-content: flex-end;
   }
 }
-@media (min-width: 850px) {
+@media (min-width: 576px) {
   nav {
     max-width: 1200px;
     margin: 0 auto;
