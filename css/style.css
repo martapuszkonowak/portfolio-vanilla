@@ -109,7 +109,19 @@ img {
 .contact p:last-child {
   margin-top: 3rem;
 }
+.button {
+  background-color: var(--magenta);
+  color: white;
+  padding: 0.5rem;
+  border-radius: 5px;
+  font-family: var(--mono);
+  text-decoration: none;
+}
 
+.button:hover {
+  color: white;
+  background-color: var(--hotmag);
+}
 /* navigation */
 nav {
   font-family: var(--mono);
@@ -117,7 +129,7 @@ nav {
   padding: 1rem;
 }
 nav img {
-  max-width: 25%;
+  max-width: 15%;
 }
 
 nav ul {
@@ -143,25 +155,12 @@ nav a {
   color: white;
   text-decoration: none;
   display: block;
+  transition: all 100ms ease-in-out;
 }
 
 nav a:hover,
 nav [class*="fa-"]:hover {
   color: var(--magenta);
-}
-
-.button {
-  background-color: var(--magenta);
-  color: white;
-  padding: 0.5rem;
-  border-radius: 5px;
-  font-family: var(--mono);
-  text-decoration: none;
-}
-
-.button:hover {
-  color: white;
-  background-color: var(--hotmag);
 }
 
 /* projects section */
